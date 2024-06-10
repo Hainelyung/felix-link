@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Link-Seite</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7ebe1; /* Heller Braunton für Hintergrund */
+        }
+
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #f4e7d5; /* Leicht heller Braunton für Container */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #5a3e2b; /* Dunkler Braunton für Überschrift */
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .links a:nth-child(1) {
+            background-color: #8b5e3c; /* Mittelbraun für Kontakt speichern */
+        }
+
+        .links a:nth-child(2) {
+            background-color: #a67c52; /* Hellbraun für Instagram */
+        }
+
+        .links a:nth-child(3) {
+            background-color: #c29b73; /* Noch hellerer Braunton für TikTok */
+        }
+
+        .links a:nth-child(4) {
+            background-color: #b56d3d; /* Kräftiges Braun für Google-Bewertung */
+        }
+
+        .links a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/DEIN_BENUTZERNAME/meine-website/BRANCHNAME/images/profilbild.jpg" alt="Profilbild" class="profile-img">
+        <h1>Felix Mohrmann</h1>
+        <div class="links">
+            <a href="https://www.example.com">Kontakt speichern</a>
+            <a href="https://www.instagram.com/felix_.3000?igsh=MXcxc2QxZnIxOW16OQ==">Instagram</a>
+            <a href="https://www.tiktok.com/@_felix_3000?_t=8n56WdO6GtU&_r=1">TikTok</a>
+            <a href="https://maps.app.goo.gl/7CwQzcrVR8M8Zief8?g_st=ic">Bewerte mich auf Google</a>
+        </div>
+    </div>
+</body>
+</html>
